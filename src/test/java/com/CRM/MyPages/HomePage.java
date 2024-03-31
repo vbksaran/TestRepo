@@ -11,7 +11,7 @@ public class HomePage {
 		this.driver=driver;
 	}
 	
-	private By sgnIn=By.id("SignIn");
+	private By sgnIn=By.linkText("Sign In");
 	
 	public String getAppURL() {
 		return driver.getCurrentUrl();		
