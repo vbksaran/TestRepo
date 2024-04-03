@@ -11,7 +11,7 @@ import org.openqa.selenium.io.FileHandler;
 public class Utility {
 
 	public static void capture(WebDriver driver)  {
-		
+		System.out.println("screenshot");
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File temp=ts.getScreenshotAs(OutputType.FILE);
 		File dest= new File (System.getProperty("user.dir")+"//screenshot//crm"+System.currentTimeMillis()+"png");
