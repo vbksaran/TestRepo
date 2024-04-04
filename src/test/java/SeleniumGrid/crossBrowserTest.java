@@ -39,11 +39,11 @@ public class crossBrowserTest {
 
 		}
 		Thread.sleep(10000);
-		Reporter.log("Test executing for amazon appliction", true);
+		Reporter.log("Test executing amazon appliction", true);
 
 		System.out.println("Title is" + driver.getTitle());
 		driver.close();
-		Reporter.log("Test execution on chrome completed", true);
+		Reporter.log("Test execution on "+bname+"completed", true);
 
 	}
 

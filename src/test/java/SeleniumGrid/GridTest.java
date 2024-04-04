@@ -23,6 +23,6 @@ public class GridTest {
 
 	  System.out.println("Title is"+driver.getTitle());
 	  driver.close();
-	  Reporter.log("Test execution on chrome completed",true);
+	  Reporter.log("Test execution on  completed",true);
   }
 }
