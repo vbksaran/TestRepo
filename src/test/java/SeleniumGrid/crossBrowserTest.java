@@ -41,7 +41,7 @@ public class crossBrowserTest {
 		Thread.sleep(10000);
 		Reporter.log("Test executing amazon appliction", true);
 
-		System.out.println("Title is" + driver.getTitle());
+		
 		driver.close();
 		Reporter.log("Test execution on "+bname+"completed", true);
 
